@@ -73,8 +73,8 @@ function createButton() {
 To hide an element, use the `hide()` method. To show an element, use the `show()` method:
 
 ```javascript
-let score = 0;                   // Set score to 
-let button = new Button('Boo!'); // Make a button
+let score = 0;                   // Set score to
+let button = new Button('!'); // Make a button
 button.hide()                    // Hide the button
 
 setInterval(scoreIncrease, 1000);// Run the "scoreIncrease" function once every second (1000 milliseconds)
